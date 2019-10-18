@@ -1,38 +1,30 @@
 window.list = [
   {
-    name: '生产管理系统',
-    version: 'v0.0.3',
+    name: '生产信息管理系统',
+    version: 'v0.0.1',
     historys: [
-      { name: 'v0.0.3', subname: '2019-10-18', android: 'https://www.baidu.com', ios: 'https://www.apple.com' },
-      { name: 'v0.0.2', subname: '2019-09-01', android: 'https://www.qq.com', ios: 'https://www.apple.com' },
-      { name: 'v0.0.1', subname: '2019-08-01', android: 'https://www.weibo.com', ios: 'https://www.apple.com' }
+      { name: 'v0.0.1', subname: '2019-10-18', android: './pack/生产信息管理系统.apk', ios: 'https://www.apple.com/cn/ios/app-store/' }
     ]
   },
   {
-    name: '设备管理系统',
+    name: '设备信息管理系统',
     version: 'v0.0.1',
     historys: [
-      { name: 'v0.0.3', subname: '2019-10-18', android: 'https://www.baidu.com', ios: 'https://www.apple.com' },
-      { name: 'v0.0.2', subname: '2019-09-01', android: 'https://www.qq.com', ios: 'https://www.apple.com' },
-      { name: 'v0.0.1', subname: '2019-08-01', android: 'https://www.weibo.com', ios: 'https://www.apple.com' }
+      { name: 'v0.0.1', subname: '2019-10-18', android: './pack/设备信息管理系统.apk', ios: 'https://www.apple.com/cn/ios/app-store/' }
     ]
   },
   {
-    name: '能源管理系统',
+    name: '能源信息管理系统',
     version: 'v0.0.1',
     historys: [
-      { name: 'v0.0.3', subname: '2019-10-18', android: 'https://www.baidu.com', ios: 'https://www.apple.com' },
-      { name: 'v0.0.2', subname: '2019-09-01', android: 'https://www.qq.com', ios: 'https://www.apple.com' },
-      { name: 'v0.0.1', subname: '2019-08-01', android: 'https://www.weibo.com', ios: 'https://www.apple.com' }
+      { name: 'v0.0.1', subname: '2019-10-18', android: './pack/能源信息管理系统.apk', ios: 'https://www.apple.com/cn/ios/app-store/' }
     ]
   },
   {
     name: '实验室信息管理系统',
     version: 'v0.0.1',
     historys: [
-      { name: 'v0.0.3', subname: '2019-10-18', android: 'https://www.baidu.com', ios: 'https://www.apple.com' },
-      { name: 'v0.0.2', subname: '2019-09-01', android: 'https://www.qq.com', ios: 'https://www.apple.com' },
-      { name: 'v0.0.1', subname: '2019-08-01', android: 'https://www.weibo.com', ios: 'https://www.apple.com' }
+      { name: 'v0.0.1', subname: '2019-10-18', android: './pack/实验室信息管理系统.apk', ios: 'https://www.apple.com/cn/ios/app-store/' }
     ]
   }
 ]

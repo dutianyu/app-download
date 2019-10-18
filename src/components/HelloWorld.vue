@@ -27,7 +27,7 @@
         >下 载</van-button>
       </div>
       <div class="btn-box">
-        <div class="text">{{activeVersion}}</div>
+        <div class="text">版本: {{activeVersion.replace('v','')}}</div>
         <van-button
           round
           block
@@ -101,6 +101,15 @@ export default {
       const { version } = item
       const { ios } = item.historys.find(v => v.name === version)
       window.location.href = ios
+    }
+  },
+  beforeCreate() {
+    document.title = '先腾数据技术有限公司-APP下载'
+  },
+  created() {
+    if (Array.isArray(this.list) && this.list.length) {
+      this.handerClickDown(this.list[0])
+      this.show = false
     }
   }
 }
